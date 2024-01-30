@@ -16,7 +16,9 @@ function App() {
       <h1>
         <strong>Box Breathing</strong>
       </h1>
-      {!startBreathing ? <Intro onStartClick={handleStartClick} /> : <Box />}
+      <main>
+        {!startBreathing ? <Intro onStartClick={handleStartClick} /> : <Box />}
+      </main>
     </div>
   );
 }
