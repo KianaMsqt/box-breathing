@@ -1,7 +1,7 @@
 import React from "react";
 
-function Box() {
+const Box = () => {
   return <></>;
-}
+};
 
 export default Box;

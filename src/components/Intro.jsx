@@ -1,6 +1,6 @@
 import React from "react";
 
-function Intro() {
+const Intro = ({ onStartClick }) => {
   return (
     <div className="intro">
       <h2>
@@ -18,9 +18,9 @@ function Intro() {
         take deep breaths.
       </p>
       <p>When you’re ready, start.</p>
-      <button>Start</button>
+      <button onClick={onStartClick}>Start</button>
     </div>
   );
-}
+};
 
 export default Intro;

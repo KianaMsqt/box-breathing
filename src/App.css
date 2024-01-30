@@ -22,13 +22,20 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100%;
 }
 
 .App {
   width: 80vw;
-  max-height: 90vh;
+  height: 90vh;
   font-size: 1.6em;
   line-height: 1.5em;
+}
+
+h1 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 h1, h2 {
